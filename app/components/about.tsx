@@ -124,14 +124,14 @@ const CircularLogoAnimation = () => {
       drawCircle(centerX, centerY, 320, '#355E3B', true);
 
       // Draw center logo
-      drawLogo(centerX, centerY, 'WFC', '#F7931E', 100, logoUrls.center);
+      drawLogo(centerX, centerY, 'WFC', '#F7931E', 90, logoUrls.center);
 
       // Draw inner circle logos (rotating clockwise)
       rotation1 += 0.005;
       const innerRadius = 200;
       const innerX = centerX + Math.cos(rotation1) * innerRadius;
       const innerY = centerY + Math.sin(rotation1) * innerRadius;
-      drawLogo(innerX, innerY, 'WFC GAF', '#FF6B35', 90, logoUrls.inner);
+      drawLogo(innerX, innerY, 'WFC GAF', '#FF6B35', 60, logoUrls.inner);
 
       // Draw middle circle with counter-clockwise rotation
       rotation2 -= 0.003;
@@ -142,7 +142,7 @@ const CircularLogoAnimation = () => {
         const angle = logo.angle + rotation2;
         const x = centerX + Math.cos(angle) * outerRadius;
         const y = centerY + Math.sin(angle) * outerRadius;
-        drawLogo(x, y, logo.name, logo.color, 95, logoUrls[logo.name]);
+        drawLogo(x, y, logo.name, logo.color, 65, logoUrls[logo.name]);
       });
 
       animationRef.current = requestAnimationFrame(animate);
@@ -174,19 +174,18 @@ const CircularLogoAnimation = () => {
             We are a ground-level company builders' army — backing founders who start from dust and aim for the sky.
           </p>
           <div className="flex gap-4 pt-4">
-                        <button 
-              onClick={() => window.location.href = '/about/founders'}
-              className="px-8 py-4 bg-[#355E3B] text-white rounded-lg font-semibold hover:bg-[#2a4a2e] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 cursor-pointer"
+            <a 
+              href="/about/founders"
+              className="px-8 py-4 bg-[#355E3B] text-white rounded-lg font-semibold hover:bg-[#2a4a2e] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 cursor-pointer inline-block text-center"
             >
               For Founders
-            </button>
-            <button 
-              onClick={() => window.location.href = '/about/investors'}
-              className="px-8 py-4 border-2 border-[#355E3B] text-[#355E3B] rounded-lg font-semibold hover:bg-[#355E3B] hover:text-white transition-all cursor-pointer"
+            </a>
+            <a 
+              href="/about/investors"
+              className="px-8 py-4 border-2 border-[#355E3B] text-[#355E3B] rounded-lg font-semibold hover:bg-[#355E3B] hover:text-white transition-all cursor-pointer inline-block text-center"
             >
               For Investors
-            </button>
-
+            </a>
           </div>
         </div>
 

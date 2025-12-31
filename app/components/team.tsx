@@ -224,8 +224,10 @@ const SparkSeedTeam = () => {
           </p>
           
           <a 
-            href="https://forms.gle/bSRnkukrFKB7QFzPA" 
-            className="inline-block bg-[#355E3B] text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 text-base sm:text-lg font-semibold no-underline transition-all hover:bg-[#2d4f32] hover:scale-105 rounded-lg shadow-lg"
+            href="https://forms.gle/bSRnkukrFKB7QFzPA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#355E3B] text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 text-base sm:text-lg font-semibold no-underline transition-all hover:bg-[#2d4f32] hover:scale-105 rounded-lg shadow-lg touch-manipulation"
           >
             LET'S TALK
           </a>

@@ -118,23 +118,14 @@ const InnovatorsLanding = () => {
             </h1>
           </div>
 
-          {/* Subtitle */}
-          {/* <p 
-            className="text-2xl md:text-3xl text-[#3a3a38] font-light animate-fadeInUp tracking-wide"
-            style={{ animationDelay: '0.3s' }}
-          >
-            Mentoring & investing in the{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#355E3B] to-[#4a7c59] font-semibold">
-              next wave
-            </span>
-            {' '}of innovative ideas
-          </p> */}
-
           {/* CTA Button */}
           <div className="mt-12 animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
-            <button 
-            onClick={() => window.location.href = 'https://forms.gle/bSRnkukrFKB7QFzPA'}
-            className="group relative px-12 py-5 bg-gradient-to-r from-[#355E3B] to-[#4a7c59] text-white text-xl font-bold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#355E3B]/50">
+            <a 
+              href="https://forms.gle/bSRnkukrFKB7QFzPA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center justify-center gap-3 px-12 py-5 bg-gradient-to-r from-[#355E3B] to-[#4a7c59] text-white text-xl font-bold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#355E3B]/50"
+            >
               <span className="relative z-10 flex items-center gap-3">
                 Get Started
                 <svg className="w-6 h-6 transform group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -142,7 +133,7 @@ const InnovatorsLanding = () => {
                 </svg>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#4a7c59] to-[#355E3B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
