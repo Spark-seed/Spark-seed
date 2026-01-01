@@ -39,7 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollProgress = 0, isScrolled = false 
     >
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center justify-between max-w-full mx-auto px-8">
-        <div className="text-2xl text-[#3a3a38] font-bold tracking-tight">SPARKSEED</div>
+        <img src="/sparkseed2.png" alt="SPARKSEED" className="h-12 w-auto mr-8" />
         
         <div className="flex items-center ml-auto">
           <a 
@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollProgress = 0, isScrolled = false 
           >
             +GET IN TOUCH
           </a>
-          <div className="w-[40vw] h-0.5 ml-4 bg-[rgba(34,34,32,0.1)]">
+          <div className="w-[30vw] h-0.5 ml-4 bg-[rgba(34,34,32,0.1)]">
             <div 
               className="h-full bg-[#355E3B] transition-all duration-100"
               style={{ width: `${progress}%` }}
@@ -66,7 +66,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollProgress = 0, isScrolled = false 
 
       {/* Mobile Navigation */}
       <div className="md:hidden flex items-center justify-between px-6">
-        <div className="text-xl text-[#3a3a38] font-bold tracking-tight">SPARKSEED</div>
+        <img src="/sparkseed2.png" alt="SPARKSEED" className="h-10 w-auto" />
         
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
