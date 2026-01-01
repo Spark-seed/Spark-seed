@@ -113,7 +113,7 @@ const SparkSeedTeam = () => {
                 
                 <div className="space-y-3 sm:space-y-4 text-base sm:text-lg leading-relaxed">
                   <p>
-                    <span className="font-bold">Builder, operator, storyteller, ecosystem architect.</span>
+                    <span className="font-bold">Builder, Operator, Storyteller & Ecosystem architect.</span>
                   </p>
                   <p>
                     A founder who has sat on both sides of the table — and now chooses to sit 
@@ -136,26 +136,22 @@ const SparkSeedTeam = () => {
             >
               <div className="mb-8">
                 {/* Image placeholder */}
-                <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] bg-white border-2 sm:border-4 border-[#355E3B] flex items-center justify-center mb-4 sm:mb-6 relative overflow-hidden rounded-lg">
-                  <div className="text-center">
-                    <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#355E3B] mb-2">PR</div>
-                    <div className="text-xs sm:text-sm text-[#3a3a38]/50 uppercase tracking-wider">Image Placeholder</div>
-                  </div>
-                  <div 
-                    className="absolute inset-0 opacity-5"
-                    style={{
-                      backgroundImage: 'repeating-linear-gradient(45deg, #355E3B 0, #355E3B 1px, transparent 0, transparent 50%)',
-                      backgroundSize: '10px 10px'
-                    }}
-                  />
-                </div>
+                          <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] bg-white border-2 sm:border-4 border-[#355E3B] mb-4 sm:mb-6 relative overflow-hidden rounded-lg">
+  
+  <img
+    src="/rajshekhar.jpeg"
+    alt="Placeholder image"
+    className="w-full h-full object-cover"
+  />
+
+</div>
                 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 tracking-tight">P. Raajashekar</h2>
                 <p className="text-lg sm:text-xl text-[#355E3B] font-semibold mb-4 sm:mb-6">Managing Partner</p>
                 
                 <div className="space-y-3 sm:space-y-4 text-base sm:text-lg leading-relaxed">
                   <p>
-                    <span className="font-bold">EV, mobility & industry veteran.</span>
+                    <span className="font-bold">EV, Mobility & Industry veteran.</span>
                   </p>
                   <p>
                     Knows how to run companies at scale, simplify complexity, and guide founders through chaos 
