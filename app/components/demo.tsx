@@ -121,7 +121,7 @@ const InnovatorsLanding = () => {
           {/* CTA Button */}
           <div className="mt-12 animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
             <a 
-              href="https://forms.gle/bSRnkukrFKB7QFzPA"
+              href="/Pitch"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center gap-3 px-12 py-5 bg-gradient-to-r from-[#355E3B] to-[#4a7c59] text-white text-xl font-bold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#355E3B]/50"

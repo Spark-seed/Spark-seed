@@ -97,19 +97,16 @@ const SparkSeedTeam = () => {
             >
               <div className="mb-8">
                 {/* Image placeholder */}
-                <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] bg-white border-2 sm:border-4 border-[#355E3B] flex items-center justify-center mb-4 sm:mb-6 relative overflow-hidden rounded-lg">
-                  <div className="text-center">
-                    <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#355E3B] mb-2">MS</div>
-                    <div className="text-xs sm:text-sm text-[#3a3a38]/50 uppercase tracking-wider">Image Placeholder</div>
-                  </div>
-                  <div 
-                    className="absolute inset-0 opacity-5"
-                    style={{
-                      backgroundImage: 'repeating-linear-gradient(45deg, #355E3B 0, #355E3B 1px, transparent 0, transparent 50%)',
-                      backgroundSize: '10px 10px'
-                    }}
-                  />
-                </div>
+                <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] bg-white border-2 sm:border-4 border-[#355E3B] mb-4 sm:mb-6 relative overflow-hidden rounded-lg">
+  
+  <img
+    src="/shivankar.jpeg"
+    alt="Placeholder image"
+    className="w-full h-full object-cover"
+  />
+
+</div>
+
                 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 tracking-tight">Mayur S</h2>
                 <p className="text-lg sm:text-xl text-[#355E3B] font-semibold mb-4 sm:mb-6">Co-Founder & CEO</p>

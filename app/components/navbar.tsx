@@ -56,10 +56,11 @@ const Navbar: React.FC<NavbarProps> = ({ scrollProgress = 0, isScrolled = false 
           </div>
         </div>
 
-        <nav className="flex gap-12 ml-12">
+        <nav className="flex gap-12 ml-12 items-center">
           <a href="/" className="text-lg no-underline text-[#355E3B] lowercase hover:opacity-70 transition-opacity">home</a>
           <a href="/about/investors" className="text-lg no-underline text-[#355E3B] lowercase hover:opacity-70 transition-opacity">for investors</a>
           <a href="/about/founders" className="text-lg no-underline text-[#355E3B] lowercase hover:opacity-70 transition-opacity">for founders</a>
+          <a href="/Pitch" className="inline-block bg-[#355E3B] text-white px-6 py-2 text-base lowercase no-underline transition-all hover:bg-[#2d4f32] rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5">pitch</a>
         </nav>
       </div>
 
@@ -103,6 +104,13 @@ const Navbar: React.FC<NavbarProps> = ({ scrollProgress = 0, isScrolled = false 
             onClick={() => setIsMenuOpen(false)}
           >
             for founders
+          </a>
+          <a 
+            href="/Pitch" 
+            className="text-lg text-[#355E3B] lowercase py-2 border-b border-gray-200 hover:bg-gray-50 transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            pitch
           </a>
           <a 
             href="#contact" 
